@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">SubBox</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#account">Account</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Perfect Subscription Box</h1>
+            <p>Personalized just for you, delivered to your doorstep.</p>
+            <button onclick="scrollToPlans()">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Subscription Plans Section -->
+    <section id="plans" class="plans">
+        <h2>Choose Your Plan</h2>
+        <div class="plan-cards">
+            <div class="plan">
+                <h3>Basic</h3>
+                <p>$10/month</p>
+                <ul>
+                    <li>3 items</li>
+                    <li>Free shipping</li>
+                </ul>
+                <button>Select Plan</button>
+            </div>
+            <div class="plan premium">
+                <h3>Premium</h3>
+                <p>$25/month</p>
+                <ul>
+                    <li>5 items</li>
+                    <li>Priority support</li>
+                </ul>
+                <button>Select Plan</button>
+            </div>
+            <div class="plan">
+                <h3>Deluxe</h3>
+                <p>$50/month</p>
+                <ul>
+                    <li>10 items</li>
+                    <li>Exclusive products</li>
+                </ul>
+                <button>Select Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Account Management Section -->
+    <section id="account" class="account">
+        <h2>Manage Your Account</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            
+            <label for="preferences">Preferences:</label>
+            <textarea id="preferences" placeholder="Tell us about your preferences"></textarea>
+            
+            <button type="submit">Save Changes</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 SubBox | All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
